@@ -1,5 +1,7 @@
 const express = require ('express')
+const CONNECTION_STRING=require('./config')
 const app = express()
+
 
 const PORT = process.env.PORT || 3000;
 
